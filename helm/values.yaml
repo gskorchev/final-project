@@ -1,0 +1,8 @@
+deployment:
+  name: flask
+  replicas: 2
+  image:
+  tag: latest
+  port: 5000
+service:
+  nodeport: 30000
