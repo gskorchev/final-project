@@ -1,7 +1,7 @@
 deployment:
   name: flask
   replicas: 2
-  image:
+  image: 726426509618.dkr.ecr.eu-central-1.amazonaws.com/flaskapp
   tag: latest
   port: 5000
 service:
