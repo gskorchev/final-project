@@ -20,4 +20,4 @@ spec:
         ports:
         - containerPort: {{ .Values.deployment.port }}
       imagePullSecrets:
-        - name: regred
+        - name: regcred
